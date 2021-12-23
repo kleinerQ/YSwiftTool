@@ -7,7 +7,7 @@
 
 import Foundation
 import AVKit
-let YToolProgressBarViewSize: CGFloat = 3000
+let YToolProgressBarViewSize: CGFloat = 300
 public class YTool {
     
     public static func countDownEffect(label: UILabel, completeHandler: @escaping ()->Void) {
