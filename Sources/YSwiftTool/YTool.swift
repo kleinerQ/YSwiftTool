@@ -498,7 +498,7 @@ public class RepeatingTimer {
         eventHandler = nil
     }
 
-    func resume() {
+    public func resume() {
         if state == .resumed {
             return
         }
@@ -506,7 +506,7 @@ public class RepeatingTimer {
         timer.resume()
     }
 
-    func suspend() {
+    public func suspend() {
         if state == .suspended {
             return
         }
